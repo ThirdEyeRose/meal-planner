@@ -13,7 +13,7 @@ $(function() {
       "directions": "Pre-heat your over to 350 degrees. Place chicken breast in a glass pan, and drizzle with olive oil. Rub the olive oil on the chicken breast to lightly coat it. Dusting the breast lightly with salt and black pepper. In the other half of the pan, chop and place broccoli. Don't layer the pieces too thick, but they can and should overlap some. Drizzle with olive oil and dust with salt and black pepper. Cook for 40 minutes."
     },
     {
-      "title": "lasagna",
+      "title": "Lasagna",
       "servings": 6,
       "ingredients": [
         { "name":"lasagna noodles", "amount":1, "unit":"box" },
@@ -29,9 +29,7 @@ $(function() {
   displayRecipes(recipes);
 
   function displayShoppingList(recipes) {
-    $.each(recipes, function(key, recipe){
-      $('#shopping_list ul').append(getIngredients(recipe));
-    });
+    $('#shopping_list ul').append(formatIngredientList(getAllIngredients(recipes)));
   }
 
   function displayRecipes(recipes) {
@@ -45,21 +43,27 @@ $(function() {
   }
 
   function getAllIngredients(recipes) {
-      ingredient_list = [];
-      $.each(recipe.ingredients, function(key, ingredient) {
-        ingredient_list[ingredient.name] = { "amount": ingredient.amount,
-                                              "unit": ingredient.unit }
+    var ingredient_list = [];
+    $.each(recipes, function(key, recipe){
+      $.each(recipe.ingredients, function(key, ingredient){
+        if (ingredient_list[ingredient.name])
+          ingredient_list[ingredient.name].amount += ingredient.amount;
+        else
+          ingredient_list[ingredient.name] = {"name": ingredient.name,
+                                              "amount": ingredient.amount,
+                                              "unit": ingredient.unit };
       });
-      return ingredient_list;
+    });
+    return ingredient_list;
   }
 
   function formatIngredientList(ingredients) {
-    ingredient_list = "";
-    $.each(ingredients, function(key, ingredient) {
-      ingredient_list += "<li>" + ingredient.amount + " " + ingredient.unit
-        + " of " + ingredient.name + "</li>";
-    });
-    return ingredient_list
+    var ingredient_list = "";
+    for (var key in ingredients) {
+      ingredient_list += "<li>" + ingredients[key].amount + " " + ingredients[key].unit
+        + " of " + ingredients[key].name + "</li>";
+    }
+    return ingredient_list;
   }
 
   function formatRecipe(recipe) {
