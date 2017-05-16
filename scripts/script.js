@@ -41,8 +41,21 @@ $(function() {
   }
 
   function getIngredients(recipe) {
+    return formatIngredientList(recipe.ingredients);
+  }
+
+  function getAllIngredients(recipes) {
+      ingredient_list = [];
+      $.each(recipe.ingredients, function(key, ingredient) {
+        ingredient_list[ingredient.name] = { "amount": ingredient.amount,
+                                              "unit": ingredient.unit }
+      });
+      return ingredient_list;
+  }
+
+  function formatIngredientList(ingredients) {
     ingredient_list = "";
-    $.each(recipe.ingredients, function(key, ingredient) {
+    $.each(ingredients, function(key, ingredient) {
       ingredient_list += "<li>" + ingredient.amount + " " + ingredient.unit
         + " of " + ingredient.name + "</li>";
     });
