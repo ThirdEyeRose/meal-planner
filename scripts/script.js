@@ -57,12 +57,34 @@ $(function() {
     }
   ]
 
-  var recipe_selection = selectRecipes(recipes);
+  $('#shopping_list').hide();
+  $('#recipes').hide();
 
-  displayShoppingList(recipe_selection);
-  displayRecipes(recipe_selection);
+  $('#serving_selection button').click(function(e){
+    e.preventDefault();
 
-  console.log(recipe_selection);
+    servings = parseInt($('#serving_selection input').val());
+    console.log(servings);
+    if (isNaN(servings)) {
+      alert('Please enter a number of servings!');
+    } else {
+      resetLists();
+
+      $('#shopping_list').show();
+      $('#recipes').show();
+
+      var recipe_selection = selectRecipes(recipes, servings);
+
+      displayShoppingList(recipe_selection);
+      displayRecipes(recipe_selection);
+    }
+
+  });
+
+  function resetLists() {
+    $('#shopping_list ul').html('');
+    $('#recipes').html('');
+  }
 
   function selectRecipes(recipes, servings = 10) {
     var recipe_selection = [];
