@@ -22,11 +22,63 @@ $(function() {
         { "name":"italian cheese", "amount":2, "unit":"pounds" }
       ],
       "directions": "Pre-heat oven to 350 degrees. Cook lasagna noodles as described on box. Brown meat in skillet. Place ingredients in layers in lasagna pan and cook in over for 45 minutes."
+    },
+    {
+      "title": "Chicken Strips",
+      "servings": 6,
+      "ingredients": [
+        { "name":"", "amount":1, "unit":"" },
+      ],
+      "directions": ""
+    },
+    {
+      "title": "Potato, Egg, and Cheese Tacos",
+      "servings": 6,
+      "ingredients": [
+        { "name":"", "amount":1, "unit":"" },
+      ],
+      "directions": ""
+    },
+    {
+      "title": "Hamburgers",
+      "servings": 6,
+      "ingredients": [
+        { "name":"", "amount":1, "unit":"" },
+      ],
+      "directions": ""
+    },
+    {
+      "title": "Meatloaf",
+      "servings": 6,
+      "ingredients": [
+        { "name":"", "amount":1, "unit":"" },
+      ],
+      "directions": ""
     }
   ]
 
-  displayShoppingList(recipes);
-  displayRecipes(recipes);
+  var recipe_selection = selectRecipes(recipes);
+
+  displayShoppingList(recipe_selection);
+  displayRecipes(recipe_selection);
+
+  console.log(recipe_selection);
+
+  function selectRecipes(recipes, servings = 10) {
+    var recipe_selection = [];
+
+    while (servings > 0) {
+      recipe = getRandomRecipe(recipes);
+      recipe_selection.push(recipe);
+      servings -= recipe.servings;
+    }
+
+    return recipe_selection;
+  }
+
+  function getRandomRecipe(recipes) {
+    return recipes[Math.floor(Math.random()*recipes.length)];
+  }
 
   function displayShoppingList(recipes) {
     $('#shopping_list ul').append(formatIngredientList(getAllIngredients(recipes)));
