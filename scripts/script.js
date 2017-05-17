@@ -49,7 +49,7 @@ $(function() {
     },
     {
       "title": "Meatloaf",
-      "servings": 8,
+      "servings": 10,
       "ingredients": [
         { "name":"", "amount":1, "unit":"" },
       ],
