@@ -27,9 +27,13 @@ $(function() {
       "title": "Chicken Strips",
       "servings": 6,
       "ingredients": [
-        { "name":"", "amount":1, "unit":"" },
+        { "name":"chicken", "amount":4, "unit":"breasts" },
+        { "name":"buttermilk", "amount":1.5, "unit":"cups"},
+        { "name":"flour", "amount":1.5, "unit":"cups"},
+        { "name":"seasoning salt", "amount":3, "unit":"tsp" },
+        { "name":"vegetable oil", "amount":3, "unit":"cups"}
       ],
-      "directions": ""
+      "directions": "Cut chicken breasts into strips. Rinse and dry your chicken strips then submerge them in buttermilk for 15 to 20 minutes, reserving 0.5 cups of buttermilk for the batter. In another bowl, combine 1.5 cups of flour and 3 tsp of seasoning salt and mix well. Add 0.5 cups of buttermilk into the flour mixture and stir lightly with a fork. Pour oil in a large skillet till it is about 1 inch deep. Heat skillet over medium heat. Place several chicken strips in the flour mixture and coat them thoroughly. Place them on a plate and continue to coat chicken strips until they are all coated. Begin cooking the chicken strips a few at a time. Cook them for about a minute and a half on each side until golden and crispy. Then place them on a paper-towel lined plate. Let cool briefly."
     },
     {
       "title": "Potato, Egg, and Cheese Tacos",
