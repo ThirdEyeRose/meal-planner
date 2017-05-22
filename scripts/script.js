@@ -93,6 +93,22 @@ $(function() {
         { "name":"black pepper", "amount":2, "unit":"tsp" },
       ],
       "directions": "Pre-heat oven to 425 degrees. Chop or slice all vegetables into medium pieces and toss in bowl with olive oil, salt, and pepper. Divide vegetables evenly on two pans. Roast vegetables for 35 minutes, removing the vegetables from the oven every 15 minutes to stir around."
+    },
+    {
+      "title": "Chickpea and Vegetable Stri Fry",
+      "servings": 4,
+      "ingredients": [
+        { "name":"red onion", "amount":0.5, "unit":"" },
+        { "name":"red bell pepper", "amount":0.5, "unit":"" },
+        { "name":"brussels sprouts", "amount":8, "unit":"" },
+        { "name":"chickpeas", "amount":1, "unit":"15oz can" },
+        { "name":"water", "amount":0.5, "unit":"cup" },
+        { "name":"soy sauce", "amount":0.5, "unit":"cup" },
+        { "name":"sugar", "amount":2, "unit":"tbsp" },
+        { "name":"cornstarch", "amount":2, "unit":"tsp" },
+        { "name":"sriacha sauce", "amount":2, "unit":"tsp" },
+      ],
+      "directions": "Slice the onion and bell pepper. Cut the brussels sprouts into quarters. Drain the can of chickpeas. Pour some boiling water into a wok or large skillet and cook the onion, bell pepper, and brussels sprouts over high heat for 1.5 minutes. Brain them and set them to the side. Place 1/2 cup water, soy sauce, sugar, cornstarch, and sriacha sauce in the wok or skillet and cook on medium-high for 5 minutes until the sauce thickens. Add the cooked veggies and the chickpeas and cook over medium-high heat for another 2 minutes."
     }
   ]
 
