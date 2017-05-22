@@ -53,11 +53,20 @@ $(function() {
     },
     {
       "title": "Meatloaf",
-      "servings": 10,
+      "servings": 8,
       "ingredients": [
-        { "name":"", "amount":1, "unit":"" },
+        { "name":"ground beef", "amount":1.5, "unit":"pounds" },
+        { "name":"egg", "amount":1, "unit":"" },
+        { "name":"onion", "amount":1, "unit":"medium" },
+        { "name":"milk", "amount":1, "unit":"cup" },
+        { "name":"bread crumbs", "amount":1, "unit":"cup" },
+        { "name":"salt", "amount":2, "unit":"tsp" },
+        { "name":"papper", "amount":1, "unit":"tsp" },
+        { "name":"brown sugar", "amount":2, "unit":"tbsp" },
+        { "name":"mustard", "amount":2, "unit":"tbsp" },
+        { "name":"ketchup", "amount":0.3, "unit":"cup" },
       ],
-      "directions": ""
+      "directions": "Pre-heat oven to 350 degrees. Chop onion into small pieces. Combine the ground beef, egg, onion, milk, bread crumbs, salt, and pepper. Place in a lightly greased 5x9 inch loaf pan (or other available baking dish). In a separate bowl, combine the brown sugar, mustard, and ketchup. Mix well and pour over the meatloaf. Bake at 350 degrees for 1 hour."
     }
   ]
 
