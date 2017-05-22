@@ -142,6 +142,39 @@ $(function() {
         { "name":"black pepper", "amount":0.5, "unit":"tsp" },
       ],
       "directions": "Rinse and dice potatoes into large chunks. Fill an 8 quart saucepan with 2 2/3 cups cold water (pan should have about 1/2-inch of water). Add diced potatoes to cold water. Heat potatoes over high heat, stirring occasionally, until water begins to boil. As soon as water begins to boil, reduce heat to medium high and cover pan with lid and cook about 20 - 25 minutes, stirring once halfway through cooking and keeping a close eye on the water level and add more as needed, until potatoes are very tender when pierced with a fork. During the last few minutes of cooking potatoes, heat heavy cream, milk and sour cream in a small saucepan over medium high heat until very warm, whisking occasionally. Remove cooked potatoes from heat and strain any excess water from potatoes. Pour strained potatoes into a large mixing bowl. Pour melted butter over potatoes and mash potatoes with a potato masher until smooth, about 2-3 minutes. Pour 3/4 of the very warm cream mixture over mashed potatoes, season with 1 tsp salt and pepper to taste and whip until well combined (adding more salt as desired)."
+    },
+    {
+      "title": "Broccoli Cheddar Soup",
+      "servings": 8,
+      "ingredients": [
+        { "name":"butter", "amount":1, "unit":"tablespoon" },
+        { "name":"onion", "amount":0.5, "unit":"" },
+        { "name":"butter", "amount":0.25, "unit":"cup" },
+        { "name":"flour", "amount":0.25, "unit":"cup" },
+        { "name":"milk", "amount":2, "unit":"cup" },
+        { "name":"chicken stock", "amount":2, "unit":"cup" },
+        { "name":"broccoli florets", "amount":1.5, "unit":"cup" },
+        { "name":"carrots", "amount":1, "unit":"cup" },
+        { "name":"shredded sharp cheddar cheese", "amount":2.5, "unit":"cup" },
+        { "name":"salt and ground black pepper", "amount":, "unit":"" },
+      ],
+      "directions": "Melt 1 tablespoon butter in a skillet over medium-high heat. Saute onion in hot butter until translucent, about 5 minutes. Set aside. Whisk 1/4 cup melted butter and flour together in a large saucepan over medium-low heat; cook until flour loses it's granular texture, adding 1 to 2 tablespoons of milk if necessary to keep the flour from burning, 3 to 4 minutes. Gradually pour milk into flour mixture while whisking constantly. Stir chicken stock into milk mixture. Bring to a simmer; cook until flour taste is gone and mixture is thickened, about 20 minutes. Add broccoli (coursely chopped), carrots (matchstick-cut), sauteed onion (chopped), and celery (thinly sliced); simmer until vegetables are tender, about 20 minutes. Stir shredded sharp Cheddar cheese into vegetable mixture until cheese melts. Season with salt and pepper to taste."
+    },
+    {
+      "title": "Chicken Fried Rice",
+      "servings": 4,
+      "ingredients": [
+        { "name":"egg", "amount":1, "unit":"" },
+        { "name":"water", "amount":1, "unit":"tablespoon" },
+        { "name":"butter", "amount":1, "unit":"tablespoon" },
+        { "name":"vegetable oil", "amount":1, "unit":"tablespoon" },
+        { "name":"onion", "amount":1, "unit":"" },
+        { "name":"cooked white rice", "amount":2, "unit":"cup" },
+        { "name":"soy sauce", "amount":2, "unit":"tablespoon" },
+        { "name":"ground black pepper", "amount":1, "unit":"teaspoon" },
+        { "name":"cooked chicken meat", "amount":1, "unit":"cup" },
+      ],
+      "directions": "In a small bowl, beat egg with water. Melt butter in a large skillet over medium low heat. Add egg and leave flat for 1 to 2 minutes. Remove from skillet and cut into shreds.Heat oil in same skillet; add onion and saute until soft. Then add rice (cooked and cold), soy sauce, pepper and chicken (cooked and chopped). Stir fry together for about 5 minutes, then stir in egg. Serve hot."
     }
   ]
 
