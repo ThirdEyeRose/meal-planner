@@ -59,6 +59,7 @@ $(function() {
         { "name":"salt", "amount":1, "unit":"tsp" },
         { "name":"black pepper", "amount":0.5, "unit":"tsp" },
         { "name":"butter", "amount":1, "unit":"tbsp" },
+        { "name":"hamburger buns", "amount":3, "unit":"" },
       ],
       "directions": "Mix salt and pepper into into ground beef and divide evenly into three patties. Use your thumb to imprint a dimple into the middle of each burger (which prevents the burgers from puffing up while cooking). Melt butter into a large skillet over medium heat. Cook patties for 3 to 4 minutes on each side, depending on how well done you want your burgers. Remove burgers from heat and place on a plate and let them rest for 5 minutes, covered with aluminum foil. Place on buns with your favorite toppings and eat."
     },
@@ -109,6 +110,24 @@ $(function() {
         { "name":"sriacha sauce", "amount":2, "unit":"tsp" },
       ],
       "directions": "Slice the onion and bell pepper. Cut the brussels sprouts into quarters. Drain the can of chickpeas. Pour some boiling water into a wok or large skillet and cook the onion, bell pepper, and brussels sprouts over high heat for 1.5 minutes. Brain them and set them to the side. Place 1/2 cup water, soy sauce, sugar, cornstarch, and sriacha sauce in the wok or skillet and cook on medium-high for 5 minutes until the sauce thickens. Add the cooked veggies and the chickpeas and cook over medium-high heat for another 2 minutes."
+    },
+    {
+      "title": "Slow-Cooker Pulled Pork Sandwiches",
+      "servings": 4,
+      "ingredients": [
+        { "name":"brown sugar", "amount":3, "unit":"tbsp" },
+        { "name":"paprika", "amount":2, "unit":"tsp" },
+        { "name":"mustard powder", "amount":1, "unit":"tsp" },
+        { "name":"cumin", "amount":0.5, "unit":"tsp" },
+        { "name":"salt", "amount":1, "unit":"tsp" },
+        { "name":"black pepper", "amount":1, "unit":"tsp" },
+        { "name":"boneless pork shoulder", "amount":4, "unit":"pounds" },
+        { "name":"vegetable oil", "amount":2, "unit":"tsp" },
+        { "name":"apple cider vinegar", "amount":0.5, "unit":"cup" },
+        { "name":"tomato paste", "amount":3, "unit":"tbsp" },
+        { "name":"hamburger buns", "amount":4, "unit":"" },
+      ],
+      "directions": "Combine 1 tablespoon brown sugar, the paprika, mustard powder, cumin, 2 teaspoons salt and 1/2 teaspoon pepper in a small bowl. Rub the spice mixture all over the pork. Heat the vegetable oil in a large skillet; add the pork and cook, turning, until browned on all sides (5 minutes). Remove the pork and transfer to a plate; whisk 3/4 cup water into the drippings in the skillet. Transfer the liquid to a 5-to-6-quart slow cooker. Add the vinegar, tomato paste, the remaining 2 tablespoons brown sugar and 2 cups water to the slow cooker and whisk to combine. Add the pork, cover and cook on low, 8 hours. Remove the pork and transfer to a cutting board. Strain the liquid into a saucepan, bring to a boil and cook until reduced by half, about 10 minutes. Season with salt. Roughly chop the pork and mix in a bowl with 1 cup of the reduced cooking liquid, and salt and vinegar to taste. Serve on buns with choice of barbecue sauce and coleslaw."
     }
   ]
 
