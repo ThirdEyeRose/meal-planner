@@ -95,7 +95,7 @@ $(function() {
       "directions": "Pre-heat oven to 425 degrees. Chop or slice all vegetables into medium pieces and toss in bowl with olive oil, salt, and pepper. Divide vegetables evenly on two pans. Roast vegetables for 35 minutes, removing the vegetables from the oven every 15 minutes to stir around."
     },
     {
-      "title": "Chickpea and Vegetable Stri Fry",
+      "title": "Chickpea and Vegetable Stir Fry",
       "servings": 4,
       "ingredients": [
         { "name":"red onion", "amount":0.5, "unit":"" },
