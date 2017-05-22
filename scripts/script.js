@@ -53,11 +53,14 @@ $(function() {
     },
     {
       "title": "Hamburgers",
-      "servings": 6,
+      "servings": 3,
       "ingredients": [
-        { "name":"", "amount":1, "unit":"" },
+        { "name":"ground beef", "amount":1, "unit":"pound" },
+        { "name":"salt", "amount":1, "unit":"tsp" },
+        { "name":"black pepper", "amount":0.5, "unit":"tsp" },
+        { "name":"butter", "amount":1, "unit":"tbsp" },
       ],
-      "directions": ""
+      "directions": "Mix salt and pepper into into ground beef and divide evenly into three patties. Use your thumb to imprint a dimple into the middle of each burger (which prevents the burgers from puffing up while cooking). Melt butter into a large skillet over medium heat. Cook patties for 3 to 4 minutes on each side, depending on how well done you want your burgers. Remove burgers from heat and place on a plate and let them rest for 5 minutes, covered with aluminum foil. Place on buns with your favorite toppings and eat."
     },
     {
       "title": "Meatloaf",
