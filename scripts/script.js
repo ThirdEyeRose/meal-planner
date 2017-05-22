@@ -142,6 +142,34 @@ $(function() {
         { "name":"black pepper", "amount":0.5, "unit":"tsp" },
       ],
       "directions": "Rinse and dice potatoes into large chunks. Fill an 8 quart saucepan with 2 2/3 cups cold water (pan should have about 1/2-inch of water). Add diced potatoes to cold water. Heat potatoes over high heat, stirring occasionally, until water begins to boil. As soon as water begins to boil, reduce heat to medium high and cover pan with lid and cook about 20 - 25 minutes, stirring once halfway through cooking and keeping a close eye on the water level and add more as needed, until potatoes are very tender when pierced with a fork. During the last few minutes of cooking potatoes, heat heavy cream, milk and sour cream in a small saucepan over medium high heat until very warm, whisking occasionally. Remove cooked potatoes from heat and strain any excess water from potatoes. Pour strained potatoes into a large mixing bowl. Pour melted butter over potatoes and mash potatoes with a potato masher until smooth, about 2-3 minutes. Pour 3/4 of the very warm cream mixture over mashed potatoes, season with 1 tsp salt and pepper to taste and whip until well combined (adding more salt as desired)."
+    },
+    {
+      "title": "Broccoli Cheddar Soup",
+      "servings": 8,
+      "ingredients": [
+        { "name":"butter", "amount":1, "unit":"tablespoon" },
+        { "name":"onion", "amount":0.5, "unit":"" },
+        { "name":"butter", "amount":0.25, "unit":"cup" },
+        { "name":"flour", "amount":0.25, "unit":"cup" },
+        { "name":"milk", "amount":2, "unit":"cup" },
+        { "name":"chicken stock", "amount":2, "unit":"cup" },
+        { "name":"broccoli florets", "amount":1.5, "unit":"cup" },
+        { "name":"carrots", "amount":1, "unit":"cup" },
+        { "name":"shredded sharp cheddar cheese", "amount":2.5, "unit":"cup" },
+        { "name":"salt and ground black pepper", "amount":, "unit":"" },
+      ],
+      "directions": "Melt 1 tablespoon butter in a skillet over medium-high heat. Saute onion in hot butter until translucent, about 5 minutes. Set aside. Whisk 1/4 cup melted butter and flour together in a large saucepan over medium-low heat; cook until flour loses it's granular texture, adding 1 to 2 tablespoons of milk if necessary to keep the flour from burning, 3 to 4 minutes. Gradually pour milk into flour mixture while whisking constantly. Stir chicken stock into milk mixture. Bring to a simmer; cook until flour taste is gone and mixture is thickened, about 20 minutes. Add broccoli (coursely chopped), carrots (matchstick-cut), sauteed onion (chopped), and celery (thinly sliced); simmer until vegetables are tender, about 20 minutes. Stir shredded sharp Cheddar cheese into vegetable mixture until cheese melts. Season with salt and pepper to taste."
+    },
+    {
+      "title": "name",
+      "servings": 2,
+      "ingredients": [
+        { "name":"chicken", "amount":1, "unit":"breast" },
+        { "name":"broccoli", "amount":1, "unit":"head" },
+        { "name":"salt", "amount":0.5, "unit":"tsp" },
+        { "name":"black pepper", "amount":0.5, "unit":"tsp" },
+      ],
+      "directions": "Pre-heat your over to 350 degrees. Place chicken breast in a glass pan, and drizzle with olive oil. Rub the olive oil on the chicken breast to lightly coat it. Dusting the breast lightly with salt and black pepper. In the other half of the pan, chop and place broccoli. Don't layer the pieces too thick, but they can and should overlap some. Drizzle with olive oil and dust with salt and black pepper. Cook for 40 minutes."
     }
   ]
 
