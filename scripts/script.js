@@ -128,6 +128,20 @@ $(function() {
         { "name":"hamburger buns", "amount":4, "unit":"" },
       ],
       "directions": "Combine 1 tablespoon brown sugar, the paprika, mustard powder, cumin, 2 teaspoons salt and 1/2 teaspoon pepper in a small bowl. Rub the spice mixture all over the pork. Heat the vegetable oil in a large skillet; add the pork and cook, turning, until browned on all sides (5 minutes). Remove the pork and transfer to a plate; whisk 3/4 cup water into the drippings in the skillet. Transfer the liquid to a 5-to-6-quart slow cooker. Add the vinegar, tomato paste, the remaining 2 tablespoons brown sugar and 2 cups water to the slow cooker and whisk to combine. Add the pork, cover and cook on low, 8 hours. Remove the pork and transfer to a cutting board. Strain the liquid into a saucepan, bring to a boil and cook until reduced by half, about 10 minutes. Season with salt. Roughly chop the pork and mix in a bowl with 1 cup of the reduced cooking liquid, and salt and vinegar to taste. Serve on buns with choice of barbecue sauce and coleslaw."
+    },
+    {
+      "title": "Mashed Potatoes",
+      "servings": 8,
+      "ingredients": [
+        { "name":"potatoes", "amount":4, "unit":"large" },
+        { "name":"butter", "amount":5, "unit":"tbsp" },
+        { "name":"heavy cream", "amount":1, "unit":"cup" },
+        { "name":"milk", "amount":0.5, "unit":"cup" },
+        { "name":"sour cream", "amount":0.5, "unit":"cup" },
+        { "name":"salt", "amount":1, "unit":"tsp" },
+        { "name":"black pepper", "amount":0.5, "unit":"tsp" },
+      ],
+      "directions": "Rinse and dice potatoes into large chunks. Fill an 8 quart saucepan with 2 2/3 cups cold water (pan should have about 1/2-inch of water). Add diced potatoes to cold water. Heat potatoes over high heat, stirring occasionally, until water begins to boil. As soon as water begins to boil, reduce heat to medium high and cover pan with lid and cook about 20 - 25 minutes, stirring once halfway through cooking and keeping a close eye on the water level and add more as needed, until potatoes are very tender when pierced with a fork. During the last few minutes of cooking potatoes, heat heavy cream, milk and sour cream in a small saucepan over medium high heat until very warm, whisking occasionally. Remove cooked potatoes from heat and strain any excess water from potatoes. Pour strained potatoes into a large mixing bowl. Pour melted butter over potatoes and mash potatoes with a potato masher until smooth, about 2-3 minutes. Pour 3/4 of the very warm cream mixture over mashed potatoes, season with 1 tsp salt and pepper to taste and whip until well combined (adding more salt as desired)."
     }
   ]
 
