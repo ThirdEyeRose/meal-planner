@@ -88,7 +88,6 @@ $(function() {
     e.preventDefault();
 
     servings = parseInt($('#serving_selection input').val());
-    console.log(servings);
     if (isNaN(servings)) {
       alert('Please enter a number of servings!');
     } else {
