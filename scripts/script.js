@@ -161,15 +161,20 @@ $(function() {
       "directions": "Melt 1 tablespoon butter in a skillet over medium-high heat. Saute onion in hot butter until translucent, about 5 minutes. Set aside. Whisk 1/4 cup melted butter and flour together in a large saucepan over medium-low heat; cook until flour loses it's granular texture, adding 1 to 2 tablespoons of milk if necessary to keep the flour from burning, 3 to 4 minutes. Gradually pour milk into flour mixture while whisking constantly. Stir chicken stock into milk mixture. Bring to a simmer; cook until flour taste is gone and mixture is thickened, about 20 minutes. Add broccoli (coursely chopped), carrots (matchstick-cut), sauteed onion (chopped), and celery (thinly sliced); simmer until vegetables are tender, about 20 minutes. Stir shredded sharp Cheddar cheese into vegetable mixture until cheese melts. Season with salt and pepper to taste."
     },
     {
-      "title": "name",
-      "servings": 2,
+      "title": "Chicken Fried Rice",
+      "servings": 4,
       "ingredients": [
-        { "name":"chicken", "amount":1, "unit":"breast" },
-        { "name":"broccoli", "amount":1, "unit":"head" },
-        { "name":"salt", "amount":0.5, "unit":"tsp" },
-        { "name":"black pepper", "amount":0.5, "unit":"tsp" },
+        { "name":"egg", "amount":1, "unit":"" },
+        { "name":"water", "amount":1, "unit":"tablespoon" },
+        { "name":"butter", "amount":1, "unit":"tablespoon" },
+        { "name":"vegetable oil", "amount":1, "unit":"tablespoon" },
+        { "name":"onion", "amount":1, "unit":"" },
+        { "name":"cooked white rice", "amount":2, "unit":"cup" },
+        { "name":"soy sauce", "amount":2, "unit":"tablespoon" },
+        { "name":"ground black pepper", "amount":1, "unit":"teaspoon" },
+        { "name":"cooked chicken meat", "amount":1, "unit":"cup" },
       ],
-      "directions": "Pre-heat your over to 350 degrees. Place chicken breast in a glass pan, and drizzle with olive oil. Rub the olive oil on the chicken breast to lightly coat it. Dusting the breast lightly with salt and black pepper. In the other half of the pan, chop and place broccoli. Don't layer the pieces too thick, but they can and should overlap some. Drizzle with olive oil and dust with salt and black pepper. Cook for 40 minutes."
+      "directions": "In a small bowl, beat egg with water. Melt butter in a large skillet over medium low heat. Add egg and leave flat for 1 to 2 minutes. Remove from skillet and cut into shreds.Heat oil in same skillet; add onion and saute until soft. Then add rice (cooked and cold), soy sauce, pepper and chicken (cooked and chopped). Stir fry together for about 5 minutes, then stir in egg. Serve hot."
     }
   ]
 
