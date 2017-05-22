@@ -6,7 +6,7 @@ $(function() {
       "servings": 2,
       "ingredients": [
         { "name":"chicken", "amount":1, "unit":"breast" },
-        { "name":"brocoli", "amount":1, "unit":"head" },
+        { "name":"broccoli", "amount":1, "unit":"head" },
         { "name":"salt", "amount":0.5, "unit":"tsp" },
         { "name":"black pepper", "amount":0.5, "unit":"tsp" }
       ],
@@ -78,6 +78,21 @@ $(function() {
         { "name":"ketchup", "amount":0.3, "unit":"cup" },
       ],
       "directions": "Pre-heat oven to 350 degrees. Chop onion into small pieces. Combine the ground beef, egg, onion, milk, bread crumbs, salt, and pepper. Place in a lightly greased 5x9 inch loaf pan (or other available baking dish). In a separate bowl, combine the brown sugar, mustard, and ketchup. Mix well and pour over the meatloaf. Bake at 350 degrees for 1 hour."
+    },
+    {
+      "title": "Roasted Vegetables",
+      "servings": 4,
+      "ingredients": [
+        { "name":"broccoli", "amount":1, "unit":"head" },
+        { "name":"zucchini", "amount":1, "unit":"large" },
+        { "name":"cherry tomatoes", "amount":1, "unit":"cup" },
+        { "name":"carrots", "amount":3, "unit":"" },
+        { "name":"portobello mushrooms", "amount":10, "unit":"ounces" },
+        { "name":"olive oil", "amount":0.25, "unit":"cup" },
+        { "name":"salt", "amount":2, "unit":"tsp" },
+        { "name":"black pepper", "amount":2, "unit":"tsp" },
+      ],
+      "directions": "Pre-heat oven to 425 degrees. Chop or slice all vegetables into medium pieces and toss in bowl with olive oil, salt, and pepper. Divide vegetables evenly on two pans. Roast vegetables for 35 minutes, removing the vegetables from the oven every 15 minutes to stir around."
     }
   ]
 
