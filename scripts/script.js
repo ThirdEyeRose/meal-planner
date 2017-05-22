@@ -37,11 +37,19 @@ $(function() {
     },
     {
       "title": "Potato, Egg, and Cheese Tacos",
-      "servings": 6,
+      "servings": 4,
       "ingredients": [
-        { "name":"", "amount":1, "unit":"" },
+        { "name":"potatoes", "amount":2, "unit":"large" },
+        { "name":"salt", "amount":1, "unit":"tsp" },
+        { "name":"olive oil", "amount":2, "unit":"tbsp" },
+        { "name":"onion", "amount":0.5, "unit":"medium" },
+        { "name":"black pepper", "amount":0.5, "unit":"tsp" },
+        { "name":"eggs", "amount":8, "unit":"" },
+        { "name":"butter", "amount":1, "unit":"tbsp" },
+        { "name":"tortillas", "amount":8, "unit":"" },
+        { "name":"mexican cheese", "amount":1, "unit":"cup" },
       ],
-      "directions": ""
+      "directions": "Put the potatoes in a large saucepan and add enough cold salted water to cover. Bring to a boil over high heat then reduce the heat to medium-low and simmer until the potatoes are tender when pierced with the tip of a knife (about 25 minutes). Drain and rinse under cold running water. Refridgerate for 2-8 hours. Cut the potatoes into small cubes. In a large skillet, heat the olive oil over medium-high heat. Add the potato cubes and cook, stirring occasionally until browned (about 10 minutes). Chop the onion and add it to the potatoes, stirring often for 2 minutes. Remove from heat and season lightly with salt and pepper. Meanwhile, whisk together the eggs, 3/4 tsp salt, and 1/4 tsp pepper in a bowl until thoroughly blended. Place the skillet with potatoes back over medium-low heat and add the butter, heating until melted. Add the egg mixture to the skillet and cook until the eggs begin to set, about 20 seconds. Stir with a spatula, scraping up the eggs from the bottom and sides of the skillet, and folding them in to the center. Repeat until the eggs are barely cooked and still moist. Remove the skillet from the heat and let stand to allow the residual heat to finish cooking the eggs. Fill tortillas with the filling and sprinkle with cheese."
     },
     {
       "title": "Hamburgers",
@@ -56,12 +64,12 @@ $(function() {
       "servings": 8,
       "ingredients": [
         { "name":"ground beef", "amount":1.5, "unit":"pounds" },
-        { "name":"egg", "amount":1, "unit":"" },
+        { "name":"eggs", "amount":1, "unit":"" },
         { "name":"onion", "amount":1, "unit":"medium" },
         { "name":"milk", "amount":1, "unit":"cup" },
         { "name":"bread crumbs", "amount":1, "unit":"cup" },
         { "name":"salt", "amount":2, "unit":"tsp" },
-        { "name":"papper", "amount":1, "unit":"tsp" },
+        { "name":"black pepper", "amount":1, "unit":"tsp" },
         { "name":"brown sugar", "amount":2, "unit":"tbsp" },
         { "name":"mustard", "amount":2, "unit":"tbsp" },
         { "name":"ketchup", "amount":0.3, "unit":"cup" },
